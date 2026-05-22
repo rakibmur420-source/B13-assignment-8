@@ -9,15 +9,17 @@ export const auth = betterAuth({
 	database: mongodbAdapter(db, {
 		client,
 	}),
-
 	emailAndPassword: {
 		enabled: true,
 	},
-
 	socialProviders: {
 		google: {
 			clientId: process.env.GOOGLE_CLIENT_ID,
 			clientSecret: process.env.GOOGLE_CLIENT_SECRET,
 		},
 	},
+	trustedOrigins: [
+		'http://localhost:3000',
+		'https://astounding-cannoli-f3268c.netlify.app',
+	],
 })
