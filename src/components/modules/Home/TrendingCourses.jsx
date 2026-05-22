@@ -2,8 +2,7 @@ import Link from 'next/link'
 import { Star } from 'lucide-react'
 
 const TrendingCourses = async () => {
-	const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/data.json`, {
-		cache: 'no-store',
+const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000'}/data.json`, {		cache: 'no-store',
 	})
 	const courses = await res.json()
 	const trending = courses.slice(3, 7)

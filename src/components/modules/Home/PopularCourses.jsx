@@ -2,7 +2,7 @@ import Link from 'next/link'
 import { Star, Clock, Users } from 'lucide-react'
 
 const PopularCourses = async () => {
-	const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/data.json`, {
+	const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000'}/data.json`, {
 		cache: 'no-store',
 	})
 	const courses = await res.json()
