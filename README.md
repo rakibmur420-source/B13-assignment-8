@@ -6,8 +6,8 @@ A modern online learning platform built with Next.js, where users can explore co
    https://astounding-cannoli-f3268c.netlify.app
 
 ### Default:
-# email: rakib@rakib.com
-# password: 123456789
+ email: rakib@rakib.com
+ password: 123456789
 
 ## Technologies Used
 
