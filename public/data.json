@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "title": "Complete Web Development Bootcamp",
+    "instructor": "John Doe",
+    "duration": "20 hours",
+    "rating": 4.8,
+    "level": "Beginner",
+    "description": "Learn full-stack web development from scratch. Covers HTML, CSS, JavaScript, React, Node.js and MongoDB. Build real-world projects and deploy them live.",
+    "image": "https://i.ibb.co/1tL3B7n/web-dev.png",
+    "category": "Development",
+    "students": 12500,
+    "curriculum": [
+      "HTML & CSS Fundamentals",
+      "JavaScript ES6+",
+      "React.js Basics",
+      "Node.js & Express",
+      "MongoDB Database",
+      "Project Deployment"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "UI/UX Design Masterclass",
+    "instructor": "Sarah Lee",
+    "duration": "15 hours",
+    "rating": 4.9,
+    "level": "Intermediate",
+    "description": "Master the art of designing beautiful and user-friendly interfaces using Figma and modern design principles. From wireframes to high-fidelity prototypes.",
+    "image": "https://i.ibb.co/1tL3B7n/design.png",
+    "category": "Design",
+    "students": 8900,
+    "curriculum": [
+      "Design Thinking Process",
+      "Wireframing Techniques",
+      "Prototyping in Figma",
+      "Color Theory & Typography",
+      "Usability Testing",
+      "Portfolio Building"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Digital Marketing Mastery",
+    "instructor": "Mike Johnson",
+    "duration": "12 hours",
+    "rating": 4.7,
+    "level": "Beginner",
+    "description": "Learn SEO, social media marketing, email campaigns, and paid ads to grow any business online. Practical strategies you can apply immediately.",
+    "image": "https://i.ibb.co/1tL3B7n/marketing.png",
+    "category": "Marketing",
+    "students": 6700,
+    "curriculum": [
+      "SEO Fundamentals",
+      "Social Media Strategy",
+      "Email Marketing Campaigns",
+      "Google & Meta Ads",
+      "Analytics & Reporting",
+      "Content Marketing"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Python for Data Science",
+    "instructor": "Emily Chen",
+    "duration": "25 hours",
+    "rating": 4.9,
+    "level": "Intermediate",
+    "description": "Dive into data analysis, visualization, and machine learning using Python, Pandas, NumPy, and Scikit-learn. Work on real datasets.",
+    "image": "https://i.ibb.co/1tL3B7n/python.png",
+    "category": "Data Science",
+    "students": 15000,
+    "curriculum": [
+      "Python Basics & OOP",
+      "NumPy & Pandas",
+      "Data Visualization with Matplotlib",
+      "Machine Learning Intro",
+      "Scikit-learn Models",
+      "Real-world Projects"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Mobile App Development with React Native",
+    "instructor": "Alex Rivera",
+    "duration": "18 hours",
+    "rating": 4.6,
+    "level": "Advanced",
+    "description": "Build cross-platform mobile apps for iOS and Android using React Native and Expo. Learn navigation, state management, and publishing to app stores.",
+    "image": "https://i.ibb.co/1tL3B7n/mobile.png",
+    "category": "Development",
+    "students": 5400,
+    "curriculum": [
+      "React Native Setup & Expo",
+      "Navigation with React Navigation",
+      "State Management (Redux/Zustand)",
+      "REST API Integration",
+      "Push Notifications",
+      "App Store Deployment"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Photography & Photo Editing",
+    "instructor": "Clara Moon",
+    "duration": "10 hours",
+    "rating": 4.8,
+    "level": "Beginner",
+    "description": "Learn photography composition, lighting techniques, and professional photo editing with Adobe Lightroom. Build a stunning portfolio.",
+    "image": "https://i.ibb.co/1tL3B7n/photo.png",
+    "category": "Photography",
+    "students": 4200,
+    "curriculum": [
+      "Camera Settings & Modes",
+      "Composition Rules",
+      "Lighting Techniques",
+      "Lightroom Basics",
+      "Color Grading",
+      "Portfolio Building"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Graphic Design with Adobe Illustrator",
+    "instructor": "James Park",
+    "duration": "14 hours",
+    "rating": 4.7,
+    "level": "Beginner",
+    "description": "Create stunning logos, illustrations, and brand identities using Adobe Illustrator. Master vector graphics from scratch.",
+    "image": "https://i.ibb.co/1tL3B7n/illustrator.png",
+    "category": "Design",
+    "students": 7300,
+    "curriculum": [
+      "Illustrator Interface",
+      "Shapes & Paths",
+      "Typography Design",
+      "Logo Creation",
+      "Brand Identity Design",
+      "Export & Print Prep"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Cyber Security Fundamentals",
+    "instructor": "David Kim",
+    "duration": "16 hours",
+    "rating": 4.5,
+    "level": "Intermediate",
+    "description": "Understand network security, ethical hacking basics, and how to protect systems from cyber threats. Hands-on labs included.",
+    "image": "https://i.ibb.co/1tL3B7n/cybersec.png",
+    "category": "Technology",
+    "students": 3800,
+    "curriculum": [
+      "Network Basics",
+      "Threat Detection & Analysis",
+      "Ethical Hacking Intro",
+      "Firewalls & VPN",
+      "Encryption Basics",
+      "Security Best Practices"
+    ]
+  }
+]
