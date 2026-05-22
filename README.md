@@ -12,7 +12,7 @@ A modern online learning platform built with Next.js, where users can explore co
 
 ## Technologies Used
 
-Next.js
+>Next.js
 React.js
 Tailwind CSS
 HeroUI / DaisyUI
