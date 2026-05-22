@@ -31,6 +31,7 @@ const CoursesPage = () => {
 				</div>
 			</div>
 		)
+		
 	}
 
 	return (
