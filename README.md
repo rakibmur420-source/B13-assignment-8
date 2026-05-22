@@ -7,6 +7,7 @@ A modern online learning platform built with Next.js, where users can explore co
 
 ### Default:
  email: rakib@rakib.com
+ 
  password: 123456789
 
 ## Technologies Used
