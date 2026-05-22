@@ -24,13 +24,14 @@ const LoginForm = () => {
 				{
 					onRequest: () => setLoading(true),
 					onSuccess: () => {
-						setLoading(false)
-						toast.success('Welcome back! 🎓 Login successful', {
-							position: 'top-right',
-							autoClose: 3000,
-						})
-						router.push('/')
-					},
+    setLoading(false)
+    toast.success('Welcome back! 🎓 Login successful', {
+        position: 'top-right',
+        autoClose: 3000,
+    })
+    const redirectTo = new URLSearchParams(window.location.search).get('redirect')
+    router.push(redirectTo || '/')
+},
 					onError: (ctx) => {
 						setLoading(false)
 						toast.error(ctx.error.message || 'Login failed. Please try again', {
