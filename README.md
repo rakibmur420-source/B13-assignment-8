@@ -2,53 +2,99 @@
 
 A modern online learning platform built with Next.js, where users can explore courses, learn from industry experts, and upgrade their skills.
 
-## 🔗 Live URL
-[Your live URL here]
+###  Live link:
+   https://astounding-cannoli-f3268c.netlify.app
 
-## ✨ Key Features
-- Browse 8+ expert-led courses across multiple categories
-- Search courses by title
-- Protected course details page (login required)
-- Email & Google authentication via BetterAuth
-- User profile with update functionality
-- Dark / Light mode toggle
-- Fully responsive on mobile, tablet, and desktop
-- Smooth animations with Motion library
-- Toast notifications
-- 404 not-found page
+## Technologies Used
 
-## 🛠 Tech Stack
-- **Next.js 16** (App Router)
-- **Tailwind CSS v4**
-- **HeroUI** – UI component library
-- **BetterAuth** – Authentication (Email + Google)
-- **MongoDB** – Database
-- **Motion** – Animations
-- **React Toastify** – Toast notifications
-- **Lucide React** – Icons
+Next.js
+React.js
+Tailwind CSS
+HeroUI / DaisyUI
+BetterAuth
+JavaScript
+React Toastify
+Motion / Swiper JS
+Lucide React
+React Icons
 
-## 🚀 Getting Started
+## Features
 
-1. Clone the repository
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-3. Copy `.env.example` to `.env.local` and fill in your values:
-   ```bash
-   cp .env.example .env.local
-   ```
-4. Run the development server:
-   ```bash
-   npm run dev
-   ```
+Fully responsive design (Mobile, Tablet, Desktop)
+Modern and clean UI
+Protected course details route
+User authentication system
+Google login support
+Register and login functionality
+Persistent Navbar & Footer
+Search functionality for courses
+Dynamic course rendering from JSON data
+Toast notifications for success/error messages
+Loading spinner while fetching data
+Not-found page implementation
+My Profile page
+Update profile information feature
+Trending Courses section
+Smooth user experience with animations
 
-## 📦 Environment Variables
-| Variable | Description |
-|---|---|
-| `NEXT_PUBLIC_BASE_URL` | Your app URL (e.g. http://localhost:3000) |
-| `BETTER_AUTH_URL` | Same as base URL |
-| `BETTER_AUTH_SECRET` | Random secret key (min 32 chars) |
-| `MONGODB_URL` | MongoDB connection string |
-| `GOOGLE_CLIENT_ID` | Google OAuth client ID |
-| `GOOGLE_CLIENT_SECRET` | Google OAuth client secret |
+## Pages Included
+
+Home Page
+All Courses Page
+Course Details Page
+Login Page
+Register Page
+My Profile Page
+Update Profile Page
+Not Found Page
+
+## Authentication Features
+
+Email & Password Login
+Google Authentication
+Protected Routes
+Redirect after login
+User profile update system
+
+
+## This project uses modern frontend libraries and authentication tools such as:
+
+Next.js
+Tailwind CSS
+HeroUI / DaisyUI
+BetterAuth
+React Toastify
+React Icons
+Lucide React
+Motion / Swiper JS
+
+
+### How to Run Locally
+
+Clone the repository:
+git clone
+
+https://github.com/rakibmur420-source/B13-assignment-8
+
+Go to the project folder:
+
+cd skillsphere
+
+Install dependencies:
+
+npm install
+
+Run the development server:
+
+npm run dev
+Environment Variables
+
+Create a .env.local file and add:
+
+NEXT_PUBLIC_BASE_URL=http://localhost:3000
+
+GOOGLE_CLIENT_ID=your_google_client_id
+GOOGLE_CLIENT_SECRET=your_google_client_secret
+
+BETTER_AUTH_SECRET=your_secret
+BETTER_AUTH_URL=http://localhost:3000
